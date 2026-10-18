@@ -1,0 +1,17 @@
+{
+  "name": "denim-rn",
+  "version": "0.1.0",
+  "description": "The Denim app shell's headless core for React Native and expo-router: applications, nav, settings store, unsaved-changes guard, Back handling. A skin draws it.",
+  "license": "MIT",
+  "author": "MrDavid5465",
+  "repository": { "type": "git", "url": "https://github.com/MrDavid5465/denim-rn" },
+  "main": "./index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-native": ">=0.80",
+    "expo-router": ">=6"
+  }
+}
