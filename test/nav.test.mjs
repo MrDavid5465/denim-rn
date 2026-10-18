@@ -2,10 +2,9 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   appForPath, appUrl, computeNav, disabledAppRedirect, tabScreenNames, visibleApplications,
-  type IApplication,
 } from '../nav.ts';
 
-const apps: IApplication[] = [
+const apps = [
   { name: 'Portfolio', path: '', under: ['report'], enabled: true },
   { name: 'Activity', path: 'activity', enabled: true },
   { name: 'Watchlist', path: 'watchlist', enabled: false },
